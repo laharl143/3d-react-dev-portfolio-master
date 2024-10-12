@@ -75,6 +75,7 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
     ));
   };
 
+  //test
   return (
     <Bounded
       data-slice-type={slice.slice_type}
