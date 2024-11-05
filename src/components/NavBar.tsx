@@ -84,7 +84,7 @@ export default function NavBar({
           <li>
             <Button
               linkField={settings.data.cta_link}
-              label={settings.data.cta_label}
+              label={'Contact'}
               className="ml-3"
             />
           </li>
@@ -152,7 +152,7 @@ function DesktopMenu({
       <li>
         <Button
           linkField={settings.data.cta_link}
-          label={settings.data.cta_label}
+          label={'Contact'}
           className="ml-3"
         />
       </li>
